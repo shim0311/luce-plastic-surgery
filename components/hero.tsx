@@ -63,8 +63,8 @@ export default function Hero0() {
 
   return (
     <section
-      className="relative w-full overflow-hidden"
-      style={{ height: "700px", touchAction: "manipulation" }}
+      className="relative overflow-hidden mx-auto"
+      style={{ height: "700px", maxWidth: "1400px", touchAction: "manipulation" }}
     >
       {/* Background Images with Ken Burns */}
       <AnimatePresence mode="popLayout">
