@@ -63,8 +63,8 @@ export default function Hero0() {
 
   return (
     <section
-      className="relative w-full min-h-[500px] max-h-[840px] overflow-hidden"
-      style={{ height: "85vh", touchAction: "manipulation" }}
+      className="relative w-full overflow-hidden"
+      style={{ height: "700px", touchAction: "manipulation" }}
     >
       {/* Background Images with Ken Burns */}
       <AnimatePresence mode="popLayout">
@@ -87,7 +87,7 @@ export default function Hero0() {
             alt="루체 성형외과 메인 이미지"
             fill
             priority={current === 0}
-            className="object-cover object-top"
+            className="object-cover object-center"
           />
           {/* Color overlay for warm tone blending */}
           <div
