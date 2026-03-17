@@ -83,7 +83,7 @@ export default function Feature1() {
           fontFamily: "'Playfair Display', serif",
         }}
       >
-        Wanna Youtube
+        LUCE Youtube
       </motion.p>
 
       {/* Content area */}
