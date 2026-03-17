@@ -9,28 +9,28 @@ const SLIDES = [
     overlayText: "luce\nnose\nsurgery",
     title: "루체 코성형",
     description: "화려함과 자연스러움이 공존하는 루체 코성형!",
-    bgColor: "rgba(0, 0, 0, 0.05)",
+    bgColor: "rgba(0, 0, 0, 0.02)",
   },
   {
     image: "/assets/hero-2.jpg",
     overlayText: "luce\neye\nsurgery",
     title: "루체 눈성형",
     description: "자연스러운 라인, 빛나는 눈매를 루체에서!",
-    bgColor: "rgba(0, 0, 0, 0.05)",
+    bgColor: "rgba(0, 0, 0, 0.02)",
   },
   {
     image: "/assets/hero-3.jpg",
     overlayText: "luce\nlifting",
     title: "루체 리프팅",
     description: "탄력 있는 윤곽, 젊음을 되찾는 루체 리프팅!",
-    bgColor: "rgba(0, 0, 0, 0.05)",
+    bgColor: "rgba(0, 0, 0, 0.02)",
   },
   {
     image: "/assets/hero-4.jpg",
     overlayText: "luce\ncontour",
     title: "루체 윤곽성형",
     description: "조화로운 비율, 자연스러운 윤곽을 루체에서!",
-    bgColor: "rgba(0, 0, 0, 0.05)",
+    bgColor: "rgba(0, 0, 0, 0.02)",
   },
 ] as const;
 
@@ -62,7 +62,7 @@ export default function Hero0() {
   const slide = SLIDES[current];
 
   return (
-    <div style={{ backgroundColor: "#c8b8a0" }}>
+    <div style={{ backgroundColor: "#e8c8bf" }}>
     <section
       className="relative overflow-hidden mx-auto"
       style={{ height: "700px", maxWidth: "1400px", touchAction: "manipulation" }}
@@ -80,7 +80,7 @@ export default function Hero0() {
           {/* Background color layer */}
           <div
             className="absolute inset-0 z-0"
-            style={{ backgroundColor: "#c8b8a0" }}
+            style={{ backgroundColor: "#e8c8bf" }}
           />
           {/* Model image */}
           <Image
