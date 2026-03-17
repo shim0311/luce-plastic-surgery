@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.wannaps.co.kr',
+        hostname: 'www.luce-clinic.co.kr',
         pathname: '/**',
       },
     ],

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: '%s | 루체 성형외과',
   },
   description: '강남 루체성형외과 - 코성형, 눈성형, 리프팅, 가슴성형 전문. 자연스럽고 아름다운 결과를 위한 최고의 선택. 강남파이낸스센터 12층.',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.wannaps.co.kr'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.luce-clinic.co.kr'),
   openGraph: {
     type: 'website',
     locale: 'ko_KR',

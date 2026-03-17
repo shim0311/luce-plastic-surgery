@@ -3,8 +3,8 @@
 // ============================================================================
 // CUSTOMIZATION - 커스터마이징 영역
 // ============================================================================
-const INSTAGRAM_URL = "https://www.instagram.com/wannaps/";
-const INSTAGRAM_HANDLE = "@wannaps_official";
+const INSTAGRAM_URL = "https://www.instagram.com/luce_plasticsurgery/";
+const INSTAGRAM_HANDLE = "@luce_plasticsurgery";
 // ============================================================================
 
 import { motion } from "motion/react";
