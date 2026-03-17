@@ -62,6 +62,7 @@ export default function Hero0() {
   const slide = SLIDES[current];
 
   return (
+    <div style={{ backgroundColor: "#c8b8a0" }}>
     <section
       className="relative overflow-hidden mx-auto"
       style={{ height: "700px", maxWidth: "1400px", touchAction: "manipulation" }}
@@ -203,5 +204,6 @@ export default function Hero0() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
